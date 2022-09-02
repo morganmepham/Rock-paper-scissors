@@ -1,0 +1,58 @@
+html{
+    background-color: black;
+    color: white;
+}
+#title{
+    text-align: center;
+    font-size: 40px;
+
+}
+#choices-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+}
+#playerChoiceDisplay{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#playerImgToDisp{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 50%;
+    height: auto;
+}
+#computerChoiceDisplay{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#computerImgToDisp{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 50%;
+    height: auto;
+}
+#resultDisplay{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+
+#images-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#rockButton{
+    grid-column: 1/2;
+}
+#paperButton{
+    grid-column: 2/3;
+}
+#scissorsButton{
+    grid-column: 3/4;
+}
+
